@@ -1,0 +1,384 @@
+
+body{
+    background-color: white;
+    justify-content:center;
+    margin:0;
+    padding: 0;
+
+}
+    
+
+
+
+
+h1{
+    text-align: center;
+}
+
+div.card{
+    background-color: white;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5); 
+    z-index: 45;
+    top: 20%;
+    right: 689px;
+    position: absolute;
+    justify-content: center;
+    padding-bottom: 5%;
+   display: block;
+   box-sizing: content-box;
+}
+img{
+   
+  width: 30%;
+  margin: auto;
+z-index: 1;
+right: 19%;
+top: -478px;
+bottom: -230px;
+position: absolute;
+justify-content:center;
+display: block;
+
+}
+
+
+
+.form-control{
+ 
+    width: 75%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color:#000000;
+    margin-left: 45px;
+    border-width: 0 0 1px 0 !important;
+    padding: 0px !important;
+    border-radius: 0;
+    background: none;
+    justify-content:center;
+    position: relative;
+    
+    margin-bottom: 2%;
+}
+.form-control:focus{
+    color:rgb(67, 67, 67);
+   background: none;
+    border-color: #000000;
+    outline: 0;
+    box-shadow: none;
+}
+.rounded{
+   
+    z-index: 1;
+    
+    right: 22%;
+    top: 50%;
+    bottom:50%;
+    width: 21%;
+    padding-bottom: 34px;
+    justify-content:center;
+    display: block;
+    
+}
+div.red{
+    background-color: #E5C2AC;
+    height: 400px;
+    width: 200px;
+    
+   right: 45%;
+    top: 12%;
+    bottom:50%;
+    z-index: -1;
+  position: absolute;
+    justify-content: center;
+    display: block;
+    
+}
+
+footer{
+   background-color: #311c19  ;
+
+  top:79% ;
+   bottom:-76%;
+   height: 140px;
+   width: 45%;
+position: absolute;
+right: 18%;
+text-align: center;
+font-size: 23px;
+display: block;
+justify-content:center;
+
+}
+p{
+    font-size: 12px;
+   
+}
+
+.container{
+  
+    display: block;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+}
+
+.btn-outline-dark{
+    margin-left: 20%;
+   
+}
+
+
+@media only screen and (min-width: 480px) {
+    /* For tablets: */
+    div.card{
+        
+        top: 46%;
+        
+        left: 29%;
+        width: 50%;
+        
+        
+    }
+    
+h1{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+    img{
+   
+        width:100%;
+        
+    height: auto;
+      right: -2%;
+      top: -478px;
+      bottom: -100px;
+      
+      
+      }
+      
+      
+      
+      .form-control{
+       height: 23%;
+          width: 60%;
+          font-size: 0.5rem;
+          font-weight: 400;
+          line-height: 1.5;
+          border-color:#000000;
+          margin-left: 45px;
+          border-width: 0 0 1px 0 !important;
+          padding: 0px !important;
+          border-radius: 0;
+          background: none;
+          justify-content:center;
+          position: relative;
+          
+      }
+      .form-control:focus{
+          color:rgb(67, 67, 67);
+         background: none;
+          border-color: #000000;
+          outline: 0;
+          box-shadow: none;
+      }
+      .rounded{
+         
+          z-index: 1;
+          
+          right: 18%;
+          top: 24%;
+          bottom:2%;
+          width: 57%;
+          padding-bottom: 34px;
+          justify-content:center;
+          display: block;
+          
+      }
+      div.red{
+          background-color: #E5C2AC;
+          height: 400px;
+          width: 65%;
+          
+         right: 15%;
+          top: 12%;
+          bottom:50%;
+          z-index: -1;
+        position: absolute;
+          justify-content: center;
+          display: block;
+          
+      }
+      footer.col-md-4{
+         
+        top:79% ;
+         bottom:-67%;
+         height: -2%;
+        
+        
+      
+     
+      font-size: 3px;
+     
+      }
+      footer{
+         padding-top: 2%;
+        top:100% ;
+         bottom:67%;
+         height: 12%;
+         width: 110%;
+     left: 1%;
+      right: 2%;
+     
+      font-size: 13px;
+     
+      }
+
+
+  
+    .btn-outline-dark{
+        margin-left: 34%;
+        font-size: 0.5rem;
+    }
+
+
+
+      
+      p{
+          font-size: 10px;
+         
+      }
+      
+      .container{
+        
+          display: block;
+          justify-content: center;
+          align-items: center;
+          box-sizing: content-box;
+      }
+      
+  }
+  @media only screen and (min-width: 1160px) {
+    /* For desktop: */
+    h1{
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    
+    div.card{
+        background-color: white;
+        box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5); 
+        z-index: 45;
+        top: 20%;
+        right: 100%;
+        position: absolute;
+        justify-content: center;
+        padding-bottom: 5%;
+       
+       box-sizing: content-box;
+       height: 52%;
+       width: 30%;
+    }
+    img{
+       
+      width: 30%;
+      margin: auto;
+    z-index: 1;
+    right: 19%;
+    top: -430px;
+    bottom: -230px;
+    position: absolute;
+    justify-content:center;
+    display: block;
+    
+    }
+    
+    
+    
+    .form-control{
+     
+        width: 70%;
+        font-size: 0.7rem;
+        font-weight: 400;
+        line-height: 1.5;
+        border-color:#000000;
+        margin-left: 45px;
+        border-width: 0 0 1px 0 !important;
+        padding: 0px !important;
+        border-radius: 0;
+        background: none;
+        justify-content:center;
+        position: relative;
+        
+    }
+    .form-control:focus{
+        color:rgb(67, 67, 67);
+       background: none;
+        border-color: #000000;
+        outline: 0;
+        box-shadow: none;
+    }
+    .rounded{
+       
+        z-index: 1;
+        
+        right: 22%;
+        top: 50%;
+        bottom:50%;
+        width: 21%;
+        padding-bottom: 34px;
+        justify-content:center;
+        display: block;
+        
+    }
+    div.red{
+        background-color: #E5C2AC;
+        height: 400px;
+        width: 200px;
+        
+       right: 45%;
+        top: 12%;
+        bottom:50%;
+        z-index: -1;
+      position: absolute;
+        justify-content: center;
+        display: block;
+        
+    }
+    .btn-outline-dark{
+        margin-left: 34%;
+        font-size: 0.9rem;
+    }
+    
+    footer{
+       background-color: #311c19  ;
+    
+      top:83% ;
+       bottom:-69%;
+       height: 150px;
+       width: 98%;
+    padding-top: 2%;
+    right: 18%;
+    text-align: center;
+    font-size: 23px;
+    display: block;
+    justify-content:center;
+    
+    }
+    p{
+        font-size: 15px;
+       
+    }
+    
+    .container{
+      
+        display: block;
+        justify-content: center;
+        align-items: center;
+        box-sizing: content-box;
+    }
+  }
+     
+  
